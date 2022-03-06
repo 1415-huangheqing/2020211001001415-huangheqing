@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b93367-274b-4edd-a1f1-7f43e6f845cc" name="变更" comment="week3" />
+    <list default="true" id="f1a3857e-39bf-4a4d-88a4-0733c60c2352" name="变更" comment="week4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="26KZH213RW5BZh7EMPV68oMaTkk" />
+  <component name="ProjectId" id="26jy3TurB2vRjrzKRwOftnKV1II" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,68 +38,37 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="13b93367-274b-4edd-a1f1-7f43e6f845cc" name="变更" comment="" />
-      <created>1647174149150</created>
+      <changelist id="f1a3857e-39bf-4a4d-88a4-0733c60c2352" name="变更" comment="" />
+      <created>1647951115836</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1647174149150</updated>
-      <workItem from="1647174150347" duration="552000" />
+      <updated>1647951115836</updated>
+      <workItem from="1647951117004" duration="1344000" />
     </task>
-    <task id="LOCAL-00001" summary="week3">
-      <created>1647174275566</created>
+    <task id="LOCAL-00001" summary="week4">
+      <created>1647951202622</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1647174275567</updated>
+      <updated>1647951202622</updated>
     </task>
-    <task id="LOCAL-00002" summary="week3">
-      <created>1647174344106</created>
+    <task id="LOCAL-00002" summary="week4">
+      <created>1647951387819</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1647174344106</updated>
+      <updated>1647951387819</updated>
     </task>
-    <task id="LOCAL-00003" summary="week3">
-      <created>1647174360551</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1647174360551</updated>
-    </task>
-    <task id="LOCAL-00004" summary="week3">
-      <created>1647174453857</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1647174453857</updated>
-    </task>
-    <task id="LOCAL-00005" summary="week3">
-      <created>1647174592165</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1647174592165</updated>
-    </task>
-    <task id="LOCAL-00006" summary="week3">
-      <created>1647174654510</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1647174654510</updated>
-    </task>
-    <task id="LOCAL-00007" summary="week3">
-      <created>1647174684381</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1647174684381</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +86,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="week3" />
-    <option name="LAST_COMMIT_MESSAGE" value="week3" />
+    <MESSAGE value="week4" />
+    <option name="LAST_COMMIT_MESSAGE" value="week4" />
   </component>
 </project>

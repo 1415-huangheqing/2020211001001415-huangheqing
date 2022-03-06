@@ -16,6 +16,39 @@
         <servlet-name>RegisterServlet</servlet-name>
         <servlet-class>huangheqing.week3.demo.RegisterServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ConfigDemoServlet</servlet-name>
+        <servlet-class>com.huangheqing.week4.ConfigDemoServlet</servlet-class>
+        <init-param>
+            <param-name>names</param-name>
+            <param-value>huangheqing</param-value>
+        </init-param>
+        <init-param>
+            <param-name>student id</param-name>
+            <param-value>2020211001001415</param-value>
+        </init-param>
+    </servlet>
+    <!--servlet>
+        <servlet-name>JDBCDemoServlet</servlet-name>
+        <servlet-class>com.huangheqing.week4.JDBCDemoServlet</servlet-class>
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value
+        </init-param>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:sqlserver://localhost:1433;database=userdb;encrypt=false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>sa</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>huangheqing</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet-->
     <servlet-mapping>
         <servlet-name>hhq</servlet-name>
         <url-pattern>/hello</url-pattern>
@@ -28,5 +61,13 @@
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConfigDemoServlet</servlet-name>
+        <url-pattern>/config</url-pattern>
+    </servlet-mapping>
+    <!--servlet-mapping>
+        <servlet-name>JDBCDemoServlet</servlet-name>
+        <url-pattern>/jdbc</url-pattern>
+    </1--servlet-mapping-->
 
 </web-app>
