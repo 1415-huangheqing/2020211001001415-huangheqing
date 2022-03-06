@@ -52,7 +52,7 @@
 </head>
 
 <body>
-<form actions="" method="post">
+<form actions="" method="post" action="/register">
 
     <div class="info">
         <p>New User Registration</p>
@@ -65,7 +65,7 @@
         <label><input type="text" name="Email" placeholder="Email" size="30" maxlength="100" /></label>
     </div>
     <div class="info">
-        <label>Gender</labe>
+        <label>Gender</label>
             <label><input type="radio" name="sex" value="Male">Male</label>
             <label><input type="radio" name="sex" value="Female">Female</label>
     </div>
