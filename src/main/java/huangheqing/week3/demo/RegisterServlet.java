@@ -32,6 +32,7 @@ public class RegisterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
  doPost(request,response);
+        request.getRequestDispatcher("WEB-INF/views/register.jsp").forward(request,response);
     }
 
     @Override
@@ -62,31 +63,33 @@ public class RegisterServlet extends HttpServlet {
             System.out.println("sql"+sql);
 
             int n= st.executeUpdate(sql);
+            System.out.println("n-->"+n);
 
 
 
-            sql="select *from usertable";
-            ResultSet rs =st.executeQuery(sql);
-            PrintWriter out=response.getWriter();
-            out.println("<html><title></title><body><table border=1><tr>");
-            out.println("<td>UserName</td><td>Password</td><td>Email</td><td>Gender</td><td>birthDate</td>");
-            while(rs.next()){
-                out.println("<tr>");
-                out.println("<td>"+rs.getString("username")+"</td>");
-                out.println("<td>"+rs.getString("password")+"</td>");
-                out.println("<td>"+rs.getString("email")+"</td>");
-                out.println("<td>"+rs.getString("gender")+"</td>");
-                out.println("<td>"+rs.getString("birthDate")+"</td>");
-
-                out.println("</tr>");
-            }
-            out.println("</table></body><ml>");
+//            sql="select *from usertable";
+//            ResultSet rs =st.executeQuery(sql);
+//            PrintWriter out=response.getWriter();
+//            out.println("<html><title></title><body><table border=1><tr>");
+//            out.println("<td>UserName</td><td>Password</td><td>Email</td><td>Gender</td><td>birthDate</td>");
+//            while(rs.next()){
+//                out.println("<tr>");
+//                out.println("<td>"+rs.getString("username")+"</td>");
+//                out.println("<td>"+rs.getString("password")+"</td>");
+//                out.println("<td>"+rs.getString("email")+"</td>");
+//                out.println("<td>"+rs.getString("gender")+"</td>");
+//                out.println("<td>"+rs.getString("birthDate")+"</td>");
+//
+//                out.println("</tr>");
+//            }
+//            out.println("</table></body><ml>");
+////            request.setAttribute("name",rs);
+////            request.getRequestDispatcher("userList.jsp").forward(request,response);
 //            request.setAttribute("name",rs);
-//            request.getRequestDispatcher("userList.jsp").forward(request,response);
-            request.setAttribute("name",rs);
-         request.getRequestDispatcher("userList.jsp").forward(request,response);
-         System.out.println("i am RegisterServlet-->doPost()-->after forward()");
-         response.sendRedirect("login.jsp");
+//         request.getRequestDispatcher("userList.jsp").forward(request,response);
+//         System.out.println("i am RegisterServlet-->doPost()-->after forward()");
+//         response.sendRedirect("login.jsp");
+            response.sendRedirect("login");
         } catch (SQLException e) {
 
             e.printStackTrace();
