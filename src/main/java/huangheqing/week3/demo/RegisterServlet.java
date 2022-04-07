@@ -25,12 +25,13 @@ public class RegisterServlet extends HttpServlet {
         }catch (ClassNotFoundException|SQLException e){
             e.printStackTrace();
         }
+        con= (Connection) getServletContext().getAttribute("con");
     }
 
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+ doPost(request,response);
     }
 
     @Override
@@ -82,8 +83,12 @@ public class RegisterServlet extends HttpServlet {
             out.println("</table></body><ml>");
 //            request.setAttribute("name",rs);
 //            request.getRequestDispatcher("userList.jsp").forward(request,response);
-
+            request.setAttribute("name",rs);
+         request.getRequestDispatcher("userList.jsp").forward(request,response);
+         System.out.println("i am RegisterServlet-->doPost()-->after forward()");
+         response.sendRedirect("login.jsp");
         } catch (SQLException e) {
+
             e.printStackTrace();
         }
 

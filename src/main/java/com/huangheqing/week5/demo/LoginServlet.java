@@ -13,41 +13,41 @@ public class LoginServlet extends HttpServlet {
     @Override
     public void init() throws ServletException{
         super.init();
-        ServletConfig config=getServletConfig();
-        String driver=config.getInitParameter("driver");
-        String url=config.getInitParameter("url");
-        String username=config.getInitParameter("username");
-        String password=config.getInitParameter("password");
-        try {
-            Class.forName(driver);
-            con = DriverManager.getConnection(url, username, password);
-            System.out.println("Connection -->" + con);
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
+        con=(Connection)getServletContext().getAttribute("com");
+
+        }
+        @Override
+      protected void  doGet(HttpServletRequest request HttpServletResponse response)throws ServletException{
+        doPost( request,response);
 
         }
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ServletConfig config = getServletConfig();
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+        PrintWriter out=response.getWriter();
+        String usename=request.getParameter("username");
+        String password=request.getParameter("password");
+        String sql="select username,password,email,gender,birthday from usertable where usename='sa'"
         try {
-            Statement st = con.createStatement();
-            ResultSet rs = st.executeQuery("select * from usertable where username='smkxmsk   ' and password =123456");
-            if("sa".equals(username)&&"huangheqing".equals(password))
-            {   PrintWriter writer =response.getWriter();
-                writer.println("Login successful");
-                writer.println("Welcome   "+username);
+            ResultSet rs=con.createStatement().executeQuery(sql);
+            if(rs.next())
+            {
+                out.println("login Successful!!!");
+                out.println("welcome"+usename);
+                // PrintWriter writer =response.getWriter();
+                //writer.println("Login successful");
+                //writer.println("Welcome   "+username);
             }
             else
-            {   PrintWriter writer =response.getWriter();
+            {
+                out.println("Username or password Error");
+                //PrintWriter writer =response.getWriter();
 
-                writer.println("Username or password Error");
+                //writer.println("Username or password Error");
             }
         }
-        catch (SQLException e) {
-            e.printStackTrace();
+        catch (SQLException  throwables) {
+            throwables.printStackTrace();
         }
     }
 

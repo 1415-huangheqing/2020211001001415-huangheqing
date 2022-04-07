@@ -20,6 +20,7 @@
         <param-name>password</param-name>
         <param-value>huangheqing</param-value>
     </context-param>
+    
 
     <servlet>
         <servlet-name>hhq</servlet-name>
@@ -81,6 +82,10 @@
     <servlet-mapping>
         <servlet-name>ConfigDemoServlet</servlet-name>
         <url-pattern>/config</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/search</url-pattern>
     </servlet-mapping>
    <!-- <servlet-mapping>
         <servlet-name>JDBCDemoServlet</servlet-name>
