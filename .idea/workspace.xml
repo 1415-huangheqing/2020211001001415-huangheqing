@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c8a9e5-d329-4f96-b330-812ae00df22e" name="变更" comment="">
+    <list default="true" id="38571dfe-8588-404e-bb42-c246b52c5fa4" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/validate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/welcome.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/2020211001001415_huangheqing_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/2020211001001415_huangheqing_war_exploded.xml" beforeDir="false" />
@@ -24,6 +29,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huangheqing/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huangheqing/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huangheqing/week5/demo/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huangheqing/week5/demo/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/huangheqing/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/huangheqing/week3/demo/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/huangheqing-2020211001001415-1.0-SNAPSHOT/WEB-INF/classes/com/huangheqing/week5/demo/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/huangheqing-2020211001001415-1.0-SNAPSHOT/WEB-INF/classes/com/huangheqing/week5/demo/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/huangheqing-2020211001001415-1.0-SNAPSHOT/WEB-INF/classes/huangheqing/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/huangheqing-2020211001001415-1.0-SNAPSHOT/WEB-INF/classes/huangheqing/week3/demo/RegisterServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +41,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="hangheqing" />
+        <option value="huangheqing" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,7 +59,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="28ozTPpN2J8XIMWINsEmmn6nZYf" />
+  <component name="ProjectId" id="29Y2zkS4H8qSTMMgD8lO9tQujgp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,16 +74,31 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="a5c8a9e5-d329-4f96-b330-812ae00df22e" name="变更" comment="" />
-      <created>1651897736159</created>
+      <changelist id="38571dfe-8588-404e-bb42-c246b52c5fa4" name="变更" comment="" />
+      <created>1653275967308</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651897736159</updated>
-      <workItem from="1651897737368" duration="452000" />
+      <updated>1653275967308</updated>
+      <workItem from="1653275970656" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week12" />
+    <option name="LAST_COMMIT_MESSAGE" value="week12" />
   </component>
 </project>
